@@ -1,0 +1,58 @@
+*{
+    user-select: none;
+}
+
+.bg-pizza{
+    background-image: url(./../img/tijolinho.jpg);
+}
+
+.bg-burguer{
+    background-image: url(./../img/madeira.jpg);
+}
+
+#tabua {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#tabua img {
+    margin-top: -26px;
+    margin-left: 4.5px;
+
+}
+
+#pizza {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+}
+
+#pizza1 {
+    position: absolute;
+    width: 125px;
+    height: 250px;
+    border-top-right-radius: 125px;
+    border-bottom-right-radius: 125px;
+    margin-right: -125px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+}
+
+#pizza1 img {
+    position: relative;
+    margin-left: -125px;
+}
+
+#tabela{    
+    position: relative;
+    top: 280px;
+}
